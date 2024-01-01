@@ -1,0 +1,67 @@
+@font-face {
+    font-family: handwriting;
+    src: url(fonts/KGMakesYouStronger.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(fonts/MontserratRegular-BWBEl.ttf);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.title {
+    font-family: 'Tilt Warp', sans-serif;
+    color: #353535;
+}
+
+.logo {
+    width: 10%;
+}
+
+.navbar {
+    border: 4px solid #b496a5e5;
+}
+
+.nav-font {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner-area-1 {
+    background-image: url(images/sign-in-banner.svg);
+    background-size: cover;
+    background-position: center center;
+    top: 100px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.banner-area-1 h1 {
+    font-family: 'handwriting', sans-serif;
+    color: #353535;
+}
+
+.valuelowkey{
+    width:60vw;
+}
+
+@media (max-width: 800px) {
+    .valuelowkey{
+        width:1000vw;
+    }
+}
+@media (max-width: 400px) {
+    .valuelowkey{
+        width:90vw;
+    }
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 2.5vw 0;
+    text-align: center;
+    width: 100%;
+}
